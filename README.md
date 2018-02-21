@@ -11,3 +11,10 @@ First, install pipenv. Then:
 pipenv install
 
 ```
+#Configure AWS CLI
+
+`aws configure --profile sdamera`
+
+## Running
+
+`pipenv run "python ec2-list.py"`
