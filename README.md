@@ -17,4 +17,8 @@ pipenv install
 
 ## Running
 
-`pipenv run "python ec2-list.py"`
+`pipenv run "python ec2-list.py <command> <--project=PROJECT>"`
+
+*command* is list, start, or stop
+*project* is optional
+
