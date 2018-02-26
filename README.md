@@ -19,6 +19,10 @@ pipenv install
 
 `pipenv run "python ec2-list.py <command> <--project=PROJECT>"`
 
-*command* is list, start, or stop
+*commands:*
+   list List EC2 instances
+   start Start EC2 instances
+   stop Stop EC2 instances
+
 *project* is optional
 
